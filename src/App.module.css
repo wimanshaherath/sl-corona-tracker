@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, Roboto;
+}
+.container{
+   text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+.title{
+    font-size: 55pt;
+    
+}

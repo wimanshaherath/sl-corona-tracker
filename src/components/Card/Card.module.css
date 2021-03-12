@@ -1,0 +1,35 @@
+.card{
+    border-radius: 20px;
+    color:white !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    /* padding:5px;*/
+    margin:2px !important;
+}
+
+.card2{
+    border-radius: 0 !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    /* padding:5px;*/
+    margin:1rem 0 !important;
+    
+}
+.infected{
+    background-color: #4663f5 !important;
+    border:2px solid #4663f5;
+}
+.deaths{
+    background: #fc2727 !important;
+    border:2px solid #fc2727;
+}
+.recovered{
+    background:#34b90f !important;
+    border:2px solid #34b90f;
+}
+
+.title{
+    font-size: 20pt !important;
+}
