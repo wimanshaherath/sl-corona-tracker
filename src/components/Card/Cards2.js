@@ -2,10 +2,10 @@ import {Grid,Typography} from '@material-ui/core';
 import styles from './Card.module.css';
 const Cards2 = (props) => {
     return(
-        <Grid container jusitfy='center'>
+        <Grid container jusitfy='center' className={styles.container}>
           <Grid item  xs={6} md={3} className={styles.card2}>
             
-                <Typography variant='subtitle1' component='h3'>
+                <Typography variant='h6' component='h3'>
                     Total Covid cases
                 </Typography>
                 <Typography variant='h6' component='p'>
@@ -16,7 +16,7 @@ const Cards2 = (props) => {
 
           <Grid item  xs={6} md={3} className={styles.card2}>
             
-                <Typography variant='subtitle1' component='h3'>
+                <Typography variant='h6' component='h3'>
                     Total PCR Tests
                 </Typography>
                 <Typography variant='h6' component='p'>
@@ -26,7 +26,7 @@ const Cards2 = (props) => {
           </Grid>
           <Grid item  xs={6} md={3} className={styles.card2}>
             
-                <Typography variant='subtitle1' component='h3'>
+                <Typography variant='h6' component='h3'>
                     New Covid-19 cases
                 </Typography>
                 <Typography variant='h6' component='p'>
@@ -36,7 +36,7 @@ const Cards2 = (props) => {
           </Grid>
           <Grid item  xs={6} md={3} className={styles.card2}>
             
-                <Typography variant='subtitle1' component='h3'>
+                <Typography variant='h6' component='h3'>
                     New Covid-19 deaths
                 </Typography>
                 <Typography variant='h6' component='p'>

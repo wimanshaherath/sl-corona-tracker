@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 const Cards = (props) =>{
     
     return(
-        <Grid container justify="center">
+        <Grid container justify="center" className={styles.container}>
             <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
                 <CardContent>
                     <Typography varient="h4" component="h1" className={styles.title}>
